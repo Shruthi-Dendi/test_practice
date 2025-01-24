@@ -185,3 +185,6 @@ To https://github.com/Shruthi-Dendi/test_practice.git
  * [new branch]      master -> master
 
 91720@DESKTOP-JUQ54B6 MINGW64 /d/Shruthi_Documents/DevOpsLearnings/test (master)
+
+
+//when we want to edit the existing file then also we shud first run the add file command,then commit it
