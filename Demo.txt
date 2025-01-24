@@ -1,1 +1,187 @@
-DevOps
+
+91720@DESKTOP-JUQ54B6 MINGW64 ~
+$ git --version
+git version 2.47.1.windows.2
+
+91720@DESKTOP-JUQ54B6 MINGW64 ~
+$ git help config
+
+91720@DESKTOP-JUQ54B6 MINGW64 ~
+$ git config--help
+git: 'config--help' is not a git command. See 'git --help'.
+
+91720@DESKTOP-JUQ54B6 MINGW64 ~
+$ git config --help
+
+91720@DESKTOP-JUQ54B6 MINGW64 ~
+$ mkdir testing
+
+91720@DESKTOP-JUQ54B6 MINGW64 ~
+$ cd testing
+
+91720@DESKTOP-JUQ54B6 MINGW64 ~/testing
+$ git init
+Initialized empty Git repository in C:/Users/91720/testing/.git/
+
+91720@DESKTOP-JUQ54B6 MINGW64 ~/testing (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        PracticeTest.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+91720@DESKTOP-JUQ54B6 MINGW64 ~/testing (master)
+$ git add PracticeTest.txt
+
+91720@DESKTOP-JUQ54B6 MINGW64 ~/testing (master)
+$ git commit -m "Commiting  a text file"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got '91720@DESKTOP-JUQ54B6.(none)')
+
+91720@DESKTOP-JUQ54B6 MINGW64 ~/testing (master)
+$ cd DevOpsLearning
+bash: cd: DevOpsLearning: No such file or directory
+
+91720@DESKTOP-JUQ54B6 MINGW64 ~/testing (master)
+$ cd D
+bash: cd: D: No such file or directory
+
+91720@DESKTOP-JUQ54B6 MINGW64 ~/testing (master)
+$ cd D:/Shruthi_Documents/DevOpsLearnings
+
+91720@DESKTOP-JUQ54B6 MINGW64 /d/Shruthi_Documents/DevOpsLearnings
+$ mkdir test
+
+91720@DESKTOP-JUQ54B6 MINGW64 /d/Shruthi_Documents/DevOpsLearnings
+$ cd test
+
+91720@DESKTOP-JUQ54B6 MINGW64 /d/Shruthi_Documents/DevOpsLearnings/test
+$ git init
+Initialized empty Git repository in D:/Shruthi_Documents/DevOpsLearnings/test/.git/
+
+91720@DESKTOP-JUQ54B6 MINGW64 /d/Shruthi_Documents/DevOpsLearnings/test (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Demo.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+91720@DESKTOP-JUQ54B6 MINGW64 /d/Shruthi_Documents/DevOpsLearnings/test (master)
+$ git add demo.txt
+
+91720@DESKTOP-JUQ54B6 MINGW64 /d/Shruthi_Documents/DevOpsLearnings/test (master)
+$ git commit -m "Commiting a text file"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got '91720@DESKTOP-JUQ54B6.(none)')
+
+91720@DESKTOP-JUQ54B6 MINGW64 /d/Shruthi_Documents/DevOpsLearnings/test (master)
+$ git config --global ^C
+
+91720@DESKTOP-JUQ54B6 MINGW64 /d/Shruthi_Documents/DevOpsLearnings/test (master)
+$ git config --global user.email "dendishruthi111@gmail.com"
+
+91720@DESKTOP-JUQ54B6 MINGW64 /d/Shruthi_Documents/DevOpsLearnings/test (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Demo.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+91720@DESKTOP-JUQ54B6 MINGW64 /d/Shruthi_Documents/DevOpsLearnings/test (master)
+$ git commit -m "Commiting a text file"
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Demo.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+91720@DESKTOP-JUQ54B6 MINGW64 /d/Shruthi_Documents/DevOpsLearnings/test (master)
+$ git add demo.txt
+
+91720@DESKTOP-JUQ54B6 MINGW64 /d/Shruthi_Documents/DevOpsLearnings/test (master)
+$ git commit -m "Commiting a text file"
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Demo.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+91720@DESKTOP-JUQ54B6 MINGW64 /d/Shruthi_Documents/DevOpsLearnings/test (master)
+$ git add Demo.txt
+
+91720@DESKTOP-JUQ54B6 MINGW64 /d/Shruthi_Documents/DevOpsLearnings/test (master)
+$ git commit -m "Commiting a text file"
+[master (root-commit) 1731d5c] Commiting a text file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Demo.txt
+
+91720@DESKTOP-JUQ54B6 MINGW64 /d/Shruthi_Documents/DevOpsLearnings/test (master)
+$ git config global user.username Shruthi-Dendi
+error: key does not contain a section: global
+
+91720@DESKTOP-JUQ54B6 MINGW64 /d/Shruthi_Documents/DevOpsLearnings/test (master)
+$ git config global user.username Shruthi-Dendi-github
+error: key does not contain a section: global
+
+91720@DESKTOP-JUQ54B6 MINGW64 /d/Shruthi_Documents/DevOpsLearnings/test (master)
+$ git config --global user.username Shruthi-Dendi-github
+
+91720@DESKTOP-JUQ54B6 MINGW64 /d/Shruthi_Documents/DevOpsLearnings/test (master)
+$ git remote add origin https://github.com/Shruthi-Dendi/test_practice.git
+
+91720@DESKTOP-JUQ54B6 MINGW64 /d/Shruthi_Documents/DevOpsLearnings/test (master)
+$ git push origin master
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 229 bytes | 229.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Shruthi-Dendi/test_practice.git
+ * [new branch]      master -> master
+
+91720@DESKTOP-JUQ54B6 MINGW64 /d/Shruthi_Documents/DevOpsLearnings/test (master)
